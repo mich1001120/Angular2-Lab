@@ -37,3 +37,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 3.之後往下找找到`git remote add origin https://github.com/mich1001120/Angular2-Lab.git`和`git push -u origin master`，這兩個指令分別是指定遠端的儲存庫和把本機的ng2推上去作為master。
 
 4.大功告成!
+
+##如何設定Angular-cli的Assets
+
+參考網址: https://jeffwu85182.github.io/2017/02/20/angular-cli-config-assets/
+
+這個方法可以讓大家省掉之後還要人工把外部連結的檔案複製到`build`之後的`dist`中，連接時注意自己的路徑和順序避免出錯。
