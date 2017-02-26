@@ -28,7 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-##如何上傳到GitHub 2017/02/26
+##如何上傳到GitHub
+
+狀況 : 在本機透過`Angular-Cli`創建的檔案，如何跟GitHub做版控連結
+
+方法 : 
 
 1.透過cmd創建一個新的ng2專案，指令為 `ng new 檔案名稱 --skip-tests`，後面帶的指令是省略測試用的(真正的用處還不確定)。
 
@@ -36,9 +40,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 3.之後往下找找到`git remote add origin https://github.com/mich1001120/Angular2-Lab.git`和`git push -u origin master`，這兩個指令分別是指定遠端的儲存庫和把本機的ng2推上去作為master。
 
-4.大功告成!
-
 ##如何設定Angular-cli的Assets
+
+狀況 : Angular2在`ng serve`測試環境和`ng build`輸出後檔案的第三方套件無法自動產生到路徑的位置
+
+方法 : 
 
 參考網址: https://jeffwu85182.github.io/2017/02/20/angular-cli-config-assets/
 
